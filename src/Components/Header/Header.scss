@@ -1,0 +1,46 @@
+@import '../../global.scss';
+.header {
+    width: 100%;
+    background: rgba($color: #5B3992, $alpha: 0.55);
+    padding: 10px 0 10px 0;
+    z-index: 5;
+    border-radius: 0px 0px 20px 20px;
+    position: fixed;
+    top: 0;
+    &_container {
+        display: flex;
+        align-items: center;
+    }
+    &_links {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        gap: 80px;
+        a {
+            color: #FDFDFD;
+            font-size: 18px;
+
+        }
+    }
+    &_contact {
+        display: flex;
+        justify-self: flex-end;
+        gap: 14px;
+        .header_contacts {
+            p {
+                color: #FDFDFD;
+            }
+        }
+    }
+    &_social {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+    }
+}
+.test {
+    background-image: url('../../../public/img/tower.png');
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+}
