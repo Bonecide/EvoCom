@@ -1,6 +1,9 @@
-export default function PurpleButton() {
+import './PurpleButton.scss'
+export default function PurpleButton({children,link, ...props}) {
 
     return(
-        <button></button>
+        <a href={link? link : null} className="PurpleButton PurpleButton_text"  {...props}>
+                {children}    
+        </a>
     )
 }

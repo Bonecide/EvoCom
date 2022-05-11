@@ -1,0 +1,36 @@
+.Evocom {
+    background-image: url('../../../public/img/tower.png');
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 99vh;
+    z-index: -1;
+  &_container {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+   
+}
+.Evocom_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    h1 {
+        font-size: 56px;
+        font-weight: 700;
+        color: #FBFBFB;
+    }
+    p{
+        font-size: 22px;
+        color: #FBFBFB;
+        margin-top: 16px;
+    }
+    .PurpleButton {
+        margin-top: 50px;
+        a {
+            font-size: 16px;
+        }
+    }
+}
