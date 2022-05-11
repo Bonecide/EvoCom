@@ -1,0 +1,15 @@
+@import '../../global.scss';
+.PurpleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background: $purple;
+    cursor: pointer;
+    &_text {
+        text-transform: uppercase;
+        color: #FDFDFD;
+    }
+}

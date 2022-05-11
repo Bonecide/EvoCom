@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
 
-
-$Purple : #5B3992;
   
 
 *{
@@ -18,7 +16,9 @@ body {
 }
 .container {
   margin: 0 auto;
-  width: 80%;
+  width: 85%;
 }
-
+a {
+  text-decoration: none ;
+}
 
