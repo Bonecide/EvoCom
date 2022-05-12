@@ -1,5 +1,4 @@
 .MAIN_IMAGE_WRAPPER {
-  position: relative;
   background-image: url('../public/img/tower.png');
     background-size:100% 101vh;
     width: 100%;

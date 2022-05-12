@@ -29,8 +29,8 @@ export default function Header() {
         <header className="header">
          <div className="header_container container">
             <div className='header_logo'>
-                <a href="#">
-                    <img src={'img/logo.svg'} alt="" />
+                <a href="#Evocom">
+                        <img src={'img/logo.svg'} alt="" />
                 </a>
             </div>
             <div className='header_links'>
@@ -42,7 +42,7 @@ export default function Header() {
             </div>
             <div className='header_contact'>
                 <div className='header_contacts'>
-                    <p>
+                    <p className='header_number'>
                         +996 777 888 999
                     </p>
                     <p>
