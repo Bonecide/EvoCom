@@ -2,4 +2,24 @@
     background: #FBFBFB;
     border-radius: 20px 20px 0px 0px;
     min-height: 200px;
+    padding-top: 105px;
+    // padding-right: 166px;
+    padding-bottom: 150px;
+}
+.AboutUs_headline {
+    color: #222121;
+}
+.AboutUs_text_container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    p {
+        font-size: 20px;
+    }
+}
+.AboutUs_text_wrapper {
+    display: flex;
+    gap: 90px;
+    margin-top: 70px;
 }
