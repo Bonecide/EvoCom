@@ -1,30 +1,8 @@
 import './Header.scss'
+import  FakeDatasHeader from '../../fake-data/links.json'
+
 export default function Header() {
 
-    const FakeDatasHeader = [
-        {
-        id : 1,
-        label : 'О нас',
-         link : '#AboutUs'
-        },
-       
-        {
-         id : 2,
-         label : 'Сервисы' ,
-         link : '#Services'
-        },
-        {
-         id : 3,
-         label : 'Услуги' ,
-         link : '#Amenit'
-        },
-        {
-         id : 4,
-         label : 'Каталог' ,
-         link : '#Catalog'
-         },
-    
-    ]
     return(
         <header className="header">
          <div className="header_container container">
