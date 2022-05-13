@@ -7,7 +7,7 @@ export default function Footer (){
     <footer className="footer">
       <div className='footer_container'>
         <div className='block_logo'>
-          <a href="#">
+          <a href="#Evocom">
             <img className="logo" src={'img/logo.svg'} alt="EvoCom" />
           </a>
         </div>
