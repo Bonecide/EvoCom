@@ -1,0 +1,23 @@
+[
+    {
+      "id" : 1,
+      "label": "О нас",
+      "link" : "#AboutUs"
+    },
+   
+    {
+     "id" : 2,
+     "label" : "Сервисы" ,
+     "link" : "#Services"
+    },
+    {
+      "id"  : 3,
+      "label": "Услуги" ,
+      "link": "#Amenit"
+    },
+    {
+      "id"  : 4,
+      "label": "Каталог" ,
+      "link" : "#Catalog"
+     }
+]
