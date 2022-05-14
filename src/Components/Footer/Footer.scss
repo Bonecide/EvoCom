@@ -47,6 +47,8 @@
     gap: 10px;
   }
   &_text{
+    font-size: 20px;
+    font-weight: 500;
     text-align: end;
     color: #FDFDFD;
   }
@@ -54,5 +56,6 @@
     display: flex;
     justify-content: end;
     padding-top: 20px;
+    padding-bottom: 10px;
   }
 }
