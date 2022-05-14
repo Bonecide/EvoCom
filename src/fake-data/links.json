@@ -2,22 +2,26 @@
     {
       "id" : 1,
       "label": "О нас",
-      "link" : "#AboutUs"
+      "link" : "#AboutUs",
+      "inWork" : false
     },
    
     {
      "id" : 2,
      "label" : "Сервисы" ,
-     "link" : "#Services"
+     "link" : "#Services",
+     "inWork" : false
     },
     {
       "id"  : 3,
       "label": "Услуги" ,
-      "link": "#Amenit"
+      "link": "#Amenit",
+      "inWork" : false
     },
     {
       "id"  : 4,
       "label": "Каталог" ,
-      "link" : "#Catalog"
+      "link" : "#Catalog",
+      "inWork" : true
      }
 ]

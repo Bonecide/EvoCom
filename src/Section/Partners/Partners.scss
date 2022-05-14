@@ -1,0 +1,21 @@
+.Partners_section {
+    margin-top: 130px;
+    h2 {
+        font-size: 36px;
+
+    }
+    .Partners_list_container {
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        gap: 110px;
+        flex-wrap: wrap;
+        width: 90%;
+        img {
+            max-width: 238px;
+            max-height: 120px;
+            object-fit: contain;
+        }
+    }
+}

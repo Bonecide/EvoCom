@@ -8,7 +8,7 @@ export default function ChooseUs (){
         <h1 className="chooseUs_title">Почему выбирают нас</h1> 
       </div>  
      <div>
-      <div className="blocл container">
+      <div className="block container">
           <div className='block_text'>
             <h3 className='block_title'>Мы поставляем</h3>
             <p className='block_description'>

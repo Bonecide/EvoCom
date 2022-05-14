@@ -13,7 +13,9 @@ export default function Footer (){
         </div>
         <div className='links_container'>
             {FakeDataFooter.map((links) => (
-              <a className='links' key={links.id} href={links.link}>{links.label}</a>
+              <a className='links' key={links.id} href={links.link} onClick = {()=> links.inWork ? alert('В процессе обновления, будет доступен позже') : null}>
+                {links.label} 
+              </a>
             ))}
         </div>
         <div className='contact'>
