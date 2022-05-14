@@ -7,10 +7,10 @@ export default function ChooseUs (){
       <div className='chooseUs_block'>
         <h1 className="chooseUs_title">Почему выбирают нас</h1> 
       </div>
-      <div className="container">
-        <div className='container_text'>
-          <h3 className='container_title'>Мы поставляем</h3>
-          <p className='container_description'>
+      <div className="block container">
+        <div className='block_text'>
+          <h3 className='block_title'>Мы поставляем</h3>
+          <p className='block_description'>
             Оборудование известных мировых <br/> 
             телеком компаний как: Eltek, <br/>
             DeltaSolution, NFWARE, Siklu,<br/>
@@ -19,9 +19,9 @@ export default function ChooseUs (){
           </p>
         </div>
         <span className='span'></span>
-        <div className='container_text'>
-          <h3 className='container_title'>Мы осуществляем</h3>
-          <p className='container_description'>
+        <div className='block_text'>
+          <h3 className='block_title'>Мы осуществляем</h3>
+          <p className='block_description'>
           Реализации проектов полного цикла<br/>
           от подключения удаленных<br/> 
           объектов до построения полномасштабных<br/> 
@@ -30,9 +30,9 @@ export default function ChooseUs (){
           </p>
         </div>
         <span className='span'></span>
-        <div className='container_text'>
-          <h3 className='container_title'>Мы предлагаем</h3>
-          <p className='container_description'>
+        <div className='block_text'>
+          <h3 className='block_title'>Мы предлагаем</h3>
+          <p className='block_description'>
           Широкий спектр услуг в области<br/> 
           IT логистики с использованием<br/>
           оптимальной логистической<br/> 
