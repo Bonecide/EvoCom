@@ -7,7 +7,7 @@ export default function ChooseUs (){
       <div className='chooseUs_block'>
         <h1 className="chooseUs_title">Почему выбирают нас</h1> 
       </div>
-      <div className="block container">
+      <div className="blocл container">
         <div className='block_text'>
           <h3 className='block_title'>Мы поставляем</h3>
           <p className='block_description'>
@@ -32,7 +32,7 @@ export default function ChooseUs (){
         <span className='span'></span>
         <div className='block_text'>
           <h3 className='block_title'>Мы предлагаем</h3>
-          <p className='block_description'>
+          <p className='blocл_description'>
           Широкий спектр услуг в области<br/> 
           IT логистики с использованием<br/>
           оптимальной логистической<br/> 
