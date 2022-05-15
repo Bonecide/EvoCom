@@ -1,13 +1,15 @@
 .chooseUs{
   width: 100%;
-  height: 50vh;
+  height: max-content;
   background-image: url('../../../public/img/cadonia1-1\ 2.png');
-  background-repeat: no-repeat;
-  background-size: 100% 50vh;
+  background-repeat:no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   &_block{
-    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    width: 85%;
     margin: 50px auto;
   }
   &_title {
@@ -15,17 +17,19 @@
     color: #FBFBFB;
   }
 }
-
+.block_choose{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 50px;
+}
 .block {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 60px;
+  width: 100%;
   &_text{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 20px;
   }
   &_title{
@@ -38,9 +42,8 @@
     color: #FBFBFB;
   }
 }
-
 .span {
-  height: 15rem;
+  height: 13rem;
   width: 1px;
-  background-color: #FBFBFB;
+  background-color: #FDFDFD;
 }
