@@ -1,12 +1,15 @@
 @import '../../global.scss';
 .header {
-    width: 100%;
+    width: 100vw;
     background: rgba($color: #5B3992, $alpha: 0.55);
     padding: 10px 0 10px 0;
     z-index: 5;
     border-radius: 0px 0px 20px 20px;
     position: fixed;
-    top: 0;
+    @include mobile {
+        padding: 5px 0 5px 0;
+    }
+    
     &_container {
         display: flex;
         align-items: center;
@@ -16,9 +19,15 @@
         justify-content: center;
         width: 70%;
         gap: 80px;
+        @include mobile {
+            gap: 8px;
+        }
         a {
             color: #FDFDFD;
             font-size: 18px;
+            @include mobile {
+                font-size: 12px;
+            }
 
         }
     }
@@ -27,12 +36,16 @@
         justify-self: flex-end;
         gap: 14px;
         .header_contacts {
+            @include mobile {
+                display: none;
+            }
             p {
                 color: #FDFDFD;
             }
             .header_number {
                 font-weight: 500;
                 text-align: end;
+                
             }
         }
     }
@@ -40,6 +53,20 @@
         display: flex;
         align-items: center;
         gap: 13px;
+        img {
+            @include mobile {
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+    .header_logo {
+        img {
+            @include mobile {
+                width: 80px;
+                height: 37px;
+            }
+        }
     }
 }
 

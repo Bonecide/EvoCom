@@ -2,7 +2,7 @@ import './Header.scss'
 import  FakeDatasHeader from '../../fake-data/links.json'
 
 export default function Header() {
-
+    
     return(
         <header className="header">
          <div className="header_container container">
@@ -13,7 +13,7 @@ export default function Header() {
             </div>
             <div className='header_links'>
                 {FakeDatasHeader.map((data)=> (
-                    <a key={`headerLinks${data.id}`} href={data.link}>
+                    <a key={`headerLinks${data.id}`} href={data.link} onClick = {()=> data.inWork? alert('В процессе обновления, будет доступен позже') : null}>
                         {data.label}
                     </a>
                 ))}

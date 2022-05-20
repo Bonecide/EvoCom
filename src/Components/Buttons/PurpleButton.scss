@@ -8,6 +8,9 @@
     border-radius: 10px;
     background: $purple;
     cursor: pointer;
+    @include mobile {
+        padding: 10px 18px;
+    }
     &_text {
         text-transform: uppercase;
         color: #FDFDFD;
