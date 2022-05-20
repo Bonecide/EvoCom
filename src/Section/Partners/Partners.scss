@@ -1,8 +1,14 @@
+@import '../../global.scss';
 .Partners_section {
     margin-top: 130px;
+    @include mobile {
+        margin-top: 80px;
+    }
     h2 {
         font-size: 36px;
-
+        @include mobile {
+            font-size: 22px;
+        }
     }
     .Partners_list_container {
         margin-top: 70px;
@@ -12,10 +18,18 @@
         gap: 110px;
         flex-wrap: wrap;
         width: 95%;
+        @include mobile {
+            margin-top: 45px;
+            gap: 46px;
+        }
         img {
             max-width: 238px;
             max-height: 120px;
             object-fit: contain;
+            @include mobile {
+                max-height: 75px;
+                max-width: 125px;
+            }
         }
     }
 }

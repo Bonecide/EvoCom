@@ -1,5 +1,5 @@
 
-import './App.css';
+import './App.scss';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import AboutUs from './Section/AboutUs/AboutUs';
@@ -17,11 +17,11 @@ function App() {
         <div className='MAIN_IMAGE_WRAPPER'>
         <Evocom/>
         <AboutUs/>
-        <ChooseUs/>
-        <Services/>
+        {/* <ChooseUs/> */}
+        {/* <Services/> */}
         <Amenits/>
         <Partners/>
-        <Footer/>
+        {/* <Footer/> */}
         </div>
     </div>
   );
