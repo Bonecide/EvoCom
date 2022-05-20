@@ -2,7 +2,7 @@ import '../OurServices/Services.scss'
 
 export default function Services(){
   return(
-    <div className="services">
+    <div className="services" id='Services'>
       <div className="container">
         <h1 className="title">Наши сервисы</h1>
         <div className="description">
