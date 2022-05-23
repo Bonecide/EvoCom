@@ -4,10 +4,17 @@
     @include mobile {
         margin-top: 80px;
     }
+    @include tablet {
+        margin-top: 85px;
+    }
     h2 {
         font-size: 36px;
+        font-weight: 500;
         @include mobile {
             font-size: 22px;
+        }
+        @include tablet {
+            font-size: 24px;
         }
     }
     .Partners_list_container {
@@ -22,6 +29,11 @@
             margin-top: 45px;
             gap: 46px;
         }
+        @include tablet {
+            margin-top: 58px;
+            gap: 50px;
+
+        }
         img {
             max-width: 238px;
             max-height: 120px;
@@ -29,6 +41,10 @@
             @include mobile {
                 max-height: 75px;
                 max-width: 125px;
+            }
+            @include tablet {
+                max-width: 180px;
+                max-height: 90px;
             }
         }
     }

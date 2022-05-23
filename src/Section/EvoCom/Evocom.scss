@@ -6,6 +6,9 @@
     @include mobile {
         height: 45vh;
     }
+    @include tablet {
+        height: 90vh;
+    }
   &_container {
     display: flex;
     flex-direction:column ;
@@ -13,6 +16,9 @@
     align-items: flex-start;
     height: 100%;
     @include mobile {
+        height: 110%;
+    }
+    @include tablet {
         height: 110%;
     }
   }
@@ -30,6 +36,10 @@
             font-size: 25px;
             font-weight: 600;
         }
+        @include tablet {
+            font-size: 36px;
+            font-weight: 600;
+        }
     }
     p{
         font-size: 22px;
@@ -39,12 +49,20 @@
             font-size: 15px;
             margin-top: 8px;
         }
+        @include tablet {
+            font-size: 20px;
+        }
+
     }
     .PurpleButton {
         margin-top: 50px;
         font-size: 16px;
         @include mobile {
             margin-top: 27px;
+            font-size: 14px;
+        }
+        @include tablet {
+            margin-top: 29px;
             font-size: 14px;
         }
         
