@@ -10,5 +10,9 @@
         height: 48vh;
         background-size: 110% 100%;
     }
+    @include tablet {
+        height: 110vh;
+        background-size: 110% 100%;
+    }
 
 }

@@ -11,6 +11,9 @@
     @include mobile {
         padding: 10px 18px;
     }
+    @include tablet {
+        padding: 9.5px 18px;
+    }
     &_text {
         text-transform: uppercase;
         color: #FDFDFD;
