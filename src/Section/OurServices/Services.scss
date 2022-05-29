@@ -1,26 +1,62 @@
+@import '../../global.scss';
+
 .services{
-  padding-top: 10rem;
+  padding-top: 120px;
   width: 100%;
+  @include tablet{
+    padding-top: 50px;
+  }
+  @include mobile {
+    padding-top: 50px;
+  }
   &_title{
     color: #5B3992;
     font-size: 26px;
     font-weight: 500;
+    @include mobile{
+      font-size: 18px;
+    }
+    @include tablet {
+      font-size: 20px;
+    }
   }
   &_description{
     padding-top: 20px;
     font-size: 20px;
     font-weight: 400;
+    @include mobile{
+      padding-top: 10px;
+      font-size: 16px;
+    }
+    @include tablet {
+      font-size: 18px;
+    }
   }
   &_section{
-   width: 40%;
+   width: 45%;
+   @include mobile {
+     width: 90%;
+   }
   }
 }
 .title{
   font-size: 36px;
   font-weight: 500;
+  @include mobile {
+    font-size: 22px;
+  }
 }
 .description {
   display: flex;
-  gap: 10%;
   padding-top: 70px;
+  gap: 80px;
+  @include tablet{
+    gap: 100px;
+    padding-top: 50px;
+  }
+  @include mobile {
+    padding-top: 50px;
+    flex-direction: column;
+    gap: 40px;
+  }
 }

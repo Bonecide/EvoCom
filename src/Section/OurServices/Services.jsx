@@ -7,7 +7,7 @@ export default function Services(){
         <h1 className="title">Наши сервисы</h1>
         <div className="description">
           <div className="services_section">
-            <h2 className="services_title">Монтаж оптическихи медных кабелей</h2>
+            <h2 className="services_title">Монтаж оптическихи <br/> медных кабелей</h2>
             <p className="services_description">
                Наши специалисты осуществляют прокладку
                и сварку кабелей волоконно-оптических систем 
@@ -16,7 +16,7 @@ export default function Services(){
             </p>
           </div>
           <div className="services_section">
-            <h2 className="services_title">Монтаж структурированных кабельных систем </h2>
+            <h2 className="services_title">Монтаж структурированных<br/> кабельных систем </h2>
             <p  className="services_description">
                Мы производим профессиональный качественный
                монтаж структурированных кабельных систем.
