@@ -7,6 +7,7 @@ import Amenits from './Section/Amenits/Amenits';
 import ChooseUs from './Section/ChooseUs/ChooseUs';
 import Evocom from './Section/EvoCom/Evocom';
 import Services from './Section/OurServices/Services';
+import Partners from './Section/Partners/Partners';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <ChooseUs/>
         <Services/>
         <Amenits/>
+        <Partners/>
         <Footer/>
         </div>
     </div>
