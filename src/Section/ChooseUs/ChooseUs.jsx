@@ -12,10 +12,10 @@ export default function ChooseUs (){
           <div className='block_text'>
             <h3 className='block_title'>Мы поставляем</h3>
             <p className='block_description'>
-              Оборудование известных мировых <br/> 
-              телеком компаний как: Eltek, <br/>
-              DeltaSolution, NFWARE, Siklu,<br/>
-              RadWin, Cambium, Ceragon,<br/>
+              Оборудование известных мировых 
+              телеком компаний как: Eltek, 
+              DeltaSolution, NFWARE, Siklu,
+              RadWin, Cambium, Ceragon,
               Старлинк и других.
             </p>
           </div>
@@ -23,10 +23,10 @@ export default function ChooseUs (){
           <div className='block_text'>
             <h3 className='block_title'>Мы осуществляем</h3>
             <p className='block_description'>
-            Реализации проектов полного цикла<br/>
-            от подключения удаленных<br/> 
-            объектов до построения полномасштабных<br/> 
-            инфокоммуникационных сетей<br/> 
+            Реализации проектов полного цикла
+            от подключения удаленных
+            объектов до построения полномасштабных 
+            инфокоммуникационных сетей
             корпоративного уровня.
             </p>
           </div>
@@ -34,10 +34,10 @@ export default function ChooseUs (){
           <div className='block_text'>
             <h3 className='block_title'>Мы предлагаем</h3>
             <p className='block_description'>
-            Широкий спектр услуг в области<br/> 
-            IT логистики с использованием<br/>
-            оптимальной логистической<br/> 
-            схемы по доставке и хранению<br/> 
+            Широкий спектр услуг в области 
+            IT логистики с использованием
+            оптимальной логистической
+            схемы по доставке и хранению
             товара до склада заказчика.
             </p>
           </div>
