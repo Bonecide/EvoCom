@@ -9,18 +9,22 @@
   background-size: inherit;
   display: flex;
   flex-direction: column;
+  @include mobile{
+    background-image: url('../../../public/img/cadonia1.png');
+    background-size: cover;
+    background-position:top center;
+  }
   @include tablet {
     background-size: initial;
   }
- 
-  
   &_block{
     display: flex;
     align-items: flex-start;
-    width: 85%;
     margin: 50px auto;
+    @include tablet{
+      margin: 40px auto;
+    }
     @include mobile {
-      width: 90%;
       margin: 30px auto;
     }
   }
@@ -28,28 +32,29 @@
     font-size: 36px;
     color: #FBFBFB;
     @include tablet {
-      font-size: 24px;
+      font-size: 20px;
     }
     @include mobile {
-      font-size: 22px;
+      font-size: 18px;
     }
   }
 }
 .block_choose{
-  width: 85%;
   margin: auto;
   margin-bottom: 50px;
-  @include mobile {
-    width: 90%;
-  }
 }
 .block {
   display: flex;
   gap: 60px;
   width: 100%;
+  @include tablet{
+    gap: 40px;
+  }
   @include mobile {
+    gap: 40px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   &_text{
     width: 100%;
@@ -57,17 +62,17 @@
     flex-direction: column;
     gap: 20px;
     @include mobile {
-      width: 40%;
+      width: 43%;
     }
   }
   &_title{
     font-size: 24px;
     color: #FBFBFB;
     @include tablet {
-      font-size: 20px;
+      font-size: 18px;
     }
     @include mobile {
-      font-size: 16px;
+      font-size: 15px;
     }
   }
   &_description {
@@ -78,7 +83,7 @@
       font-size: 16px;
     }
     @include mobile {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 }

@@ -3,11 +3,11 @@ import '../ChooseUs/ChooseUs.scss'
 export default function ChooseUs (){
 
   return (
-    <div className="chooseUs container">
-      <div className='chooseUs_block'>
+    <div className="chooseUs ">
+      <div className='chooseUs_block container'>
         <h1 className="chooseUs_title">Почему выбирают нас</h1> 
       </div>  
-     <div className='block_choose'>
+     <div className='block_choose container'>
       <div className="block">
           <div className='block_text'>
             <h3 className='block_title'>Мы поставляем</h3>
