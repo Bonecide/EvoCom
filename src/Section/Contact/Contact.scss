@@ -1,0 +1,113 @@
+@import '../../global.scss';
+.Contact {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #DEDEDE;
+  display: flex;
+}
+.title-section{
+  font-size: 36px;
+  font-weight: 500;
+  @include tablet{
+    font-size: 24px;
+  }
+  @include mobile {
+    font-size: 22px;
+  }
+}
+.contact-block{
+  display: flex;
+  @include tablet{
+    flex-direction: column;
+  }
+  @include mobile{
+    flex-direction: column;
+  }
+}
+.container {
+  width: 90%;
+  @include tablet {
+    width: 85%;
+  }
+  @include mobile{
+    width: 90%;
+  }
+
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  width: 50%;
+  @include tablet{
+    width: 100%;
+  }
+  @include mobile {
+    width: 100%;
+  }
+  &_title{
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    font-weight: 400;
+    @include tablet {
+      font-size: 20px;
+    }
+    @include mobile {
+      font-size: 18px;
+    }
+  }
+  &_block{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  &_input {
+    width: 60%;
+    height: 55px;
+    border: 1px solid #FBFBFB;
+    border-radius: 10px;
+    @include tablet{
+      width: 70%;
+    }
+    @include mobile {
+      width: 100%;
+    }
+  }
+  .PurpleButton{
+    width: 150px;
+    border-radius: 50px;
+    padding: 20px 100px;
+    @include mobile {
+      width: 140px;
+      padding: 20px 90px ;
+    }
+  }
+}
+::placeholder{
+  padding-left: 20px;
+  font-size: 14px;
+}
+.address{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 40px;
+  @include tablet{
+    width: 100%;
+  }
+  @include mobile {
+    width: 100%;
+  }
+  &_text{
+   font-size: 22px;
+   font-weight: 500;
+   @include tablet{
+     font-size: 20px;
+   }
+   @include mobile{
+     font-size: 18px;
+   }
+  }
+}

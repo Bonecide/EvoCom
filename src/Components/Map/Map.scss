@@ -1,12 +1,11 @@
 
 .maps_container{
+  width: 100%;
   .Maps{
-    width: 600px;
+    width: 100%;
     height: 300px;
-  }
-  .address{
-    padding-top: 20px;
-    font-size: 22px;
-    font-weight: 500;
+    overflow: hidden;
+    border: 1px solid #5B3992;
+    border-radius: 10px;
   }
 }

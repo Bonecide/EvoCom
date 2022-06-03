@@ -7,14 +7,13 @@ export default function Maps (){
       <YMaps>
         <Map 
           className="Maps"
-          defaultState={{ center: [42.853409, 74.610169], zoom: 17}}>
+          defaultState={{ center: [42.853409, 74.610169], zoom: 16}}>
           <Placemark 
           geometry={[42.853409, 74.610169]}
           />
           <ZoomControl/>
         </Map>
       </YMaps>
-      <h3 className="address">Адрес: ул. Байтик Баатыра 25</h3>
     </div>
   )
 }

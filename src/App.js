@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import AboutUs from './Section/AboutUs/AboutUs';
 import Amenits from './Section/Amenits/Amenits';
 import ChooseUs from './Section/ChooseUs/ChooseUs';
+import Contact from './Section/Contact/Contact';
 import Evocom from './Section/EvoCom/Evocom';
 import Services from './Section/OurServices/Services';
 import Partners from './Section/Partners/Partners';
@@ -21,6 +22,7 @@ function App() {
         <Services/>
         <Amenits/>
         <Partners/>
+        <Contact/>
         <Footer/>
         </div>
     </div>
