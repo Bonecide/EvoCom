@@ -1,21 +1,34 @@
 import './AboutUs.scss'
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 export default function AboutUs () {
+    const [data,setData] = useState()
+    const fetchData = () => {
+       axios.get('http://167.99.35.71/about_us/')
+    .then(res =>{
+      setData(res.data)
+    })}
+    useEffect (()=> {
+      fetchData()
+    },[])
 
     return(
 
         <div className='AboutUs_container' id='AboutUs'>
+        {data ? 
             <div className='container'>
                <h2 className='AboutUs_headline'>О нас</h2>
                <div className='AboutUs_text_wrapper'>
                    <div className='AboutUs_text_container'>
-                        <p>Компания Эвоком основана профессионалами - выходцами из телекома области в 2018 году с целью представления инновационных решений мировых производителей на местном рынке для дальнейшего развития телеком области в Кыргызстане.</p>
-                        <p>Компания ОсОО «Эвоком Сервис» работает над проектами в сфере телекома более 2 лет и уже имеет опыт реализации крупных, технологически сложных инфраструктурных проектов в телеком области.</p>
+                        <p>{data[2].text}</p>
+                        <p>{data[1].text}</p>
                    </div>
                    <div className='AboutUs_text_container'>
-                        <p>Высокий уровень квалификации наших специалистов, многолетний опыт, использование решений ведущих компаний мира, надежность, оптимальное соотношение цена/качество и полная адаптация к условиям местного рынка, позволяют компании «Эвоком Сервис» успешно конкурировать на телекоммуникационном рынке Кыргызстана.</p>
+                        <p>{data[0].text}</p>
                    </div>
                </div>
-            </div>   
+            </div> 
+           : 'Loading...'}  
         </div>
     )
 }
