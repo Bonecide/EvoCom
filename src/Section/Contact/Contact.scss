@@ -60,24 +60,29 @@
   &_block{
     display: flex;
     flex-direction: column;
-    gap: 30px;
   }
   &_input {
     width: 60%;
     height: 55px;
     border: 1px solid #FBFBFB;
     border-radius: 10px;
+    font-size: 20px;
+    padding-left: 10px;
     @include tablet{
       width: 70%;
     }
     @include mobile {
       width: 100%;
+      padding-left: 10px;
     }
   }
   .PurpleButton{
     width: 150px;
     border-radius: 50px;
     padding: 20px 100px;
+    color: #FBFBFB;
+    font-weight: 500;
+    font-size: 20px;
     @include mobile {
       width: 140px;
       padding: 20px 90px ;
@@ -85,9 +90,10 @@
   }
 }
 ::placeholder{
-  padding-left: 20px;
-  font-size: 14px;
+  padding-left: 10px;
+  font-size: 18px;
 }
+
 .address{
   width: 50%;
   display: flex;
@@ -110,4 +116,24 @@
      font-size: 18px;
    }
   }
+}
+.error{
+  height: 30px;
+  &_text{
+    padding-top: 5px;
+    color: red;
+    font-size: 12px;
+  }
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
 }

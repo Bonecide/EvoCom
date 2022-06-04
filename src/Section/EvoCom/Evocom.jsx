@@ -14,7 +14,7 @@ export default function Evocom(){
                     Телеком решения и услуги
                     </h1>
                     <p>IT решения любой сложности  </p>
-                    <PurpleButton link='http://google.com'>Обратный звонок</PurpleButton>
+                    <PurpleButton link='#Contact'>Обратный звонок</PurpleButton>
                 </div>
             </div>
         </div>
