@@ -20,7 +20,6 @@ export default function Contact (){
       url:"http://167.99.35.71/contacts/",
       data
     })
-    console.log(data)
     reset();
   } 
 
