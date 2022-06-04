@@ -11,18 +11,14 @@ export default function Contact (){
     handleSubmit,
     reset
   } = useForm({
-    mode:"onBlur"
+    mode:"onSubmit"
   })
 
   const onSubmit = (data) => {
     axios({
       method:'post',
       url:"http://167.99.35.71/contacts/",
-      data:{
-        name:"",
-        phone:"",
-        email:""
-      }
+      data
     })
     console.log(data)
     reset();
@@ -46,7 +42,7 @@ export default function Contact (){
                   {errors?.name && <p className="error_text">{errors?.name?.message || "Error"}</p>}
                 </div>
                 <input className="info_input" 
-                type="number" 
+                type="text" 
                 {...register ("phone", {
                   required:"Поле обязательно к заполнению"
                 })}

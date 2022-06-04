@@ -25,13 +25,16 @@
         gap: 110px;
         flex-wrap: wrap;
         width: 95%;
+        margin-bottom: 130px;
         @include mobile {
             margin-top: 45px;
             gap: 46px;
+            margin-bottom: 80px;
         }
         @include tablet {
             margin-top: 58px;
             gap: 50px;
+            margin-bottom: 85px;
 
         }
         img {
