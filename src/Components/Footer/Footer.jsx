@@ -24,8 +24,8 @@ export default function Footer (){
             <img src={'img/insta.svg'} alt="instagram" />
           </div>
           <div className='contact_container'>
-            <p className='contact_text'>Отдел продаж: +996 707 702 702</p>
-            <p className='contact_text'>Отдел тех. поддержки: +996 707 702 703 </p>
+            <p className='contact_text'>Отдел продаж: +996 775 990 809</p>
+            <p className='contact_text'>Отдел тех. поддержки: +996 555 212 315 </p>
             <p className='contact_text'>E-mail: global@evocomservice.com</p>
           </div>
           <div className='contact_year'>

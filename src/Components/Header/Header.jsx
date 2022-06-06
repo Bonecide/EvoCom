@@ -21,7 +21,7 @@ export default function Header() {
             <div className='header_contact'>
                 <div className='header_contacts'>
                     <p className='header_number'>
-                        +996 777 888 999
+                        +996 775 990 809
                     </p>
                     <p>
                     global@evocomservice.com
