@@ -23,7 +23,7 @@ export default function Footer (){
           <a target='_blank' rel="noreferrer" href="https://api.whatsapp.com/send/?phone=996775990 809&text=Здравствуйте%2C+у+меня+есть+вопрос">
             <img src={'img/whatsapp.svg'} alt="whatsapp" />
           </a>  
-          <a href=''>
+          <a href="#">
             <img style={{cursor: 'pointer'}} onClick={()=> alert('В Разработке')} src={'img/insta.svg'} alt="instagram" />
           </a> 
           </div>

@@ -1,4 +1,4 @@
-import { GeolocationControl, Map, Placemark, YMaps, ZoomControl } from "react-yandex-maps";
+import {Map, Placemark, YMaps, ZoomControl } from "react-yandex-maps";
 import '../Map/Map.scss';
 
 export default function Maps (){
