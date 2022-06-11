@@ -1,31 +1,10 @@
-
-import './App.scss';
-import Footer from './Components/Footer/Footer';
-import Header from './Components/Header/Header';
-import AboutUs from './Section/AboutUs/AboutUs';
-import Amenits from './Section/Amenits/Amenits';
-import ChooseUs from './Section/ChooseUs/ChooseUs';
-import Contact from './Section/Contact/Contact';
-import Evocom from './Section/EvoCom/Evocom';
-import Services from './Section/OurServices/Services';
-import Partners from './Section/Partners/Partners';
-
+import { Route, Routes } from 'react-router-dom';
+import MainPage from './MainPage';
 function App() {
   return (
-    <div className="App">
-      
-        <Header/>
-        <div className='MAIN_IMAGE_WRAPPER'>
-        <Evocom/>
-        <AboutUs/>
-        <ChooseUs/>
-        <Services/>
-        <Amenits/>
-        <Partners/>
-        <Contact/>
-        <Footer/>
-        </div>
-    </div>
+   <Routes>
+      <Route index element={<MainPage/>} />
+   </Routes>
   );
 }
 
