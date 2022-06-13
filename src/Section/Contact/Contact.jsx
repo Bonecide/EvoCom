@@ -64,7 +64,7 @@ export default function Contact (){
           </div>
           <div className="address">
             <Map/>
-            <p className="address_text">Адрес: ул. Байтик Баатыра 25</p>
+            <p className="address_text">Адрес: ул.Шопокова 93/2 каб. 808</p>
           </div>
         </div>
       </div>

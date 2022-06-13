@@ -7,9 +7,9 @@ export default function Maps (){
       <YMaps>
         <Map 
           className="Maps"
-          defaultState={{ center: [42.853409, 74.610169], zoom: 16}}>
+          defaultState={{ center: [42.879253, 74.614562], zoom: 16}}>
           <Placemark 
-          geometry={[42.853409, 74.610169]}
+          geometry={[42.879253, 74.614562]}
           />
           <ZoomControl/>
         </Map>
